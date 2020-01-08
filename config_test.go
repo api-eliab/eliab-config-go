@@ -12,6 +12,7 @@ func TestLoadConfiguration(t *testing.T) {
 
 	log.Info(Get.General["SESSIONS"].PortServer)
 	log.Info(Get.DataBase.DataBase)
-	log.Info(Get.OnePushNotification.URL)
+	log.Info(Get.OneSignal)
+	log.Info(Get.Services)
 
 }

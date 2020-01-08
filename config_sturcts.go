@@ -5,10 +5,11 @@ var Get Configuration
 
 // Configuration doc ...
 type Configuration struct {
-	Mode                string
-	General             map[string]General `toml:"general"`
-	DataBase            DataBase
-	OnePushNotification OnePushNotification `toml:"onePushNotification"`
+	Mode      string
+	General   map[string]General `toml:"general"`
+	DataBase  DataBase
+	OneSignal OneSignal           `toml:"oneSignal"`
+	Services  map[string]Services `toml:"services"`
 }
 
 // General doc ...
@@ -25,7 +26,13 @@ type DataBase struct {
 	Port     int64
 }
 
-// OnePushNotification doc ...
-type OnePushNotification struct {
-	URL string
+// OneSignal doc ...
+type OneSignal struct {
+	AppID string
+}
+
+// Services doc ..
+type Services struct {
+	URL         string
+	Description string
 }
