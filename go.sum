@@ -1,5 +1,3 @@
-bitbucket.org/bakingthecookie/bi-bel3-config-go v1.1.1 h1:iq7nj5PAFxAhJysOKhm0n8fBL18Syzk7xIw2ahqOTJk=
-bitbucket.org/bakingthecookie/bi-bel3-config-go v1.1.1/go.mod h1:NSmOuW3YflTD+6vs2yhNBJpRpIQFuX/DbNxP0sQCwBo=
 github.com/BurntSushi/toml v0.3.1 h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/go-sql-driver/mysql v1.4.1 h1:g24URVg0OFbNUTx9qqY1IRZ9D9z3iPyi5zKhQZpNwpA=
