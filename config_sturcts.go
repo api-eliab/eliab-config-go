@@ -29,6 +29,7 @@ type DataBase struct {
 // OneSignal doc ...
 type OneSignal struct {
 	AppID string
+	Key   string
 }
 
 // Services doc ..
