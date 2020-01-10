@@ -14,5 +14,7 @@ func TestLoadConfiguration(t *testing.T) {
 	log.Info(Get.DataBase.DataBase)
 	log.Info(Get.OneSignal)
 	log.Info(Get.Services)
+	log.Info(Get.AuthenticationToken)
+	log.Info(Get.Mode)
 
 }

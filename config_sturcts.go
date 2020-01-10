@@ -5,11 +5,12 @@ var Get Configuration
 
 // Configuration doc ...
 type Configuration struct {
-	Mode      string
-	General   map[string]General `toml:"general"`
-	DataBase  DataBase
-	OneSignal OneSignal           `toml:"oneSignal"`
-	Services  map[string]Services `toml:"services"`
+	Mode                string
+	General             map[string]General `toml:"general"`
+	DataBase            DataBase
+	OneSignal           OneSignal           `toml:"oneSignal"`
+	Services            map[string]Services `toml:"services"`
+	AuthenticationToken string              `toml:"authenticationToken"`
 }
 
 // General doc ...
