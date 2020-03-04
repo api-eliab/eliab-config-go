@@ -16,5 +16,6 @@ func TestLoadConfiguration(t *testing.T) {
 	log.Info(Get.Services)
 	log.Info(Get.AuthenticationToken)
 	log.Info(Get.Mode)
+	log.Info(Get.AppVersion)
 
 }

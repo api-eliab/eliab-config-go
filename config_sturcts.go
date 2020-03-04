@@ -6,6 +6,7 @@ var Get Configuration
 // Configuration doc ...
 type Configuration struct {
 	Mode                string
+	AppVersion          string             `toml:"appVersion"`
 	General             map[string]General `toml:"general"`
 	DataBase            DataBase
 	OneSignal           OneSignal           `toml:"oneSignal"`
